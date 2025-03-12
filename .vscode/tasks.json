@@ -4,7 +4,7 @@
     {
       "type": "func",
       "label": "func: host start",
-      "command": "host start --verbose --port 7072",
+      "command": "host start --verbose --port 7075",
       "problemMatcher": "$func-node-watch",
       "isBackground": true,
       "dependsOn": "npm install (functions)"
