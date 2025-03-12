@@ -10,7 +10,7 @@ app.http('http1', {
             const name = request.query.get('name') || await request.text() || 'world';
             
             // Safe async iteration instead of recursion
-            const greetIterate = async (n, greeting, maxCount = 3000) => {
+            const greetIterate = async (n, greeting, maxCount = 10000) => {
                 let count = n;
                 let result = greeting;
                 
